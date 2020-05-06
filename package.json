@@ -1,0 +1,26 @@
+{
+    "name": "test-site",
+    "private": true,
+    "scripts": {
+        "build": "gridsome build",
+        "develop": "gridsome develop",
+        "explore": "gridsome explore"
+    },
+    "dependencies": {
+        "axios": "^0.19.2",
+        "faunadb": "^2.13.1",
+        "gridsome": "^0.7.0",
+        "moment": "^2.24.0",
+        "postcss-cli": "^7.1.0",
+        "vee-validate": "^2.2.15",
+        "vue-loader": "^15.9.1",
+        "vue-style-loader": "^4.1.2",
+        "vuesax": "^3.11.13",
+        "vuex": "^3.3.0"
+    },
+    "devDependencies": {
+        "@fullhuman/postcss-purgecss": "^2.1.2",
+        "gridsome-plugin-tailwindcss": "^2.2.48",
+        "tailwindcss": "^1.4.4"
+    }
+}
